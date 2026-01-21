@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,7 +9,12 @@
   <body>
     <h1>Distance converter</h1>
     <label for="kilometers">Enter kilometers:</label>
-    <input type="number" id="kilometers" />
+    <input
+      type="number"
+      id="kilometers"
+      name="kilometers"
+      placeholder="for example: 33"
+    />
     <button id="toMiles" onclick="convertDistance()">Convert to miles</button>
   </body>
   <script src="script.js"></script>

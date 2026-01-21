@@ -1,0 +1,21 @@
+body {
+  height: auto;
+  text-align: center;
+}
+label {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+input {
+  padding: 4px;
+}
+button {
+  background-color: rgb(58, 1, 58);
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+}
