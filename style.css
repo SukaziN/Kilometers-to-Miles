@@ -19,3 +19,9 @@ button {
   font-family: "Courier New", Courier, monospace;
   font-weight: 500;
 }
+p {
+  padding: 10px;
+  background-color: rgba(255, 192, 203, 0.502);
+  font-size: 1.1em;
+  border-radius: 5%;
+}

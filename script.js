@@ -2,8 +2,8 @@ function convertDistance() {
   let kilometers = document.getElementById("kilometers").valueAsNumber;
   console.log(typeof kilometers); //returns number but the value still fetched is NaN instead of the user's input
   console.log(kilometers);
-  let miles = (kilometers * 1.60934).toFixed(2);
-  let message = `${kilometers} kms is equal to ${miles} miles`;
+  let miles = (kilometers * 1.60934).toLocaleString("en-US");
+  let message = `${kilometers} km is equal to ${miles} miles`;
   let answer = document.createElement("p");
   answer.innerText = message;
   document.body.appendChild(answer);
