@@ -1,0 +1,2 @@
+At first I wanted to convert miles to kilometers but then I remembered I live in a country where the metric measurement is in use and we wonder less about how many miles make how many kilometers than we do the reverse (hence the title of my repositiory).
+This is an application that converts kilometers to miles so you can contextualize distance when speaking to an audience that uses miles. I do plan on also including a function to convert miles to kilometers to maximise this application's potential and for further inclusivity.
